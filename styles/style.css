@@ -60,6 +60,46 @@ form {
     padding: 10px;
     gap: 15px;
 }
+.datas {
+    background-color: #7C7AA2;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #33D1CB;
+    color: white;
+    border: 1px solid #239490;
+    border-radius: 5px;
+    font-weight: bold;
+}
+form > input[type=submit]:hover {
+    font-size: 1.1em;
+    background-color: #33D1CB;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: ease;
+}
+form > a.button {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    color: #A04477;
+    text-decoration: none;
+}
+form > a.button:hover {
+    color: #d4599d;
+}
+form > a.button > span {
+    margin-left: 5px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {

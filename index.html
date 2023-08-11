@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="./image/cat-cool.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Login</title>
@@ -17,15 +18,19 @@
             <div id="form">
                 <h1>Login</h1>
             </div>
-            <form action="login.js" method="post">
-                <p>
-                    <label for="name">Nome:</label>
-                    <input type="text" name="name" id="name" placeholder="Nome completo" required>
-                </p>
-                <p>
-                    <label for="password">Senha:</label>
-                    <input type="password" name="password" id="password" placeholder="Senha" required>
-                </p>
+            <form action="login.js" method="post" autocomplete="on">
+                <div class="datas">
+                    <span class="material-icons">login</span>
+                    <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="email" required>
+                    <label for="email"></label>
+                </div>
+                <div class="datas">
+                    <span class="material-icons">lock_open</span>
+                    <input type="password" name="password" id="password" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                    <label for="password"></label>
+                </div>
+                <input type="submit" value="Entrar">
+                <a href="#" class="button">Esqueci a senha <span class="material-icons">mail</span></a>
             </form>
         </section>
     </main>
