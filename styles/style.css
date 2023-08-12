@@ -124,7 +124,7 @@ form > a.button > span {
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background: linear-gradient(to top, #33D1CB, #A04477);
-        background-repeat: no-repeat;
+        height: 100vh;
     }
     #login {
         width: 90vw;
@@ -145,6 +145,7 @@ form > a.button > span {
 @media screen and (min-width: 992px) {
     body {
         background: linear-gradient(to top, #33D1CB, #A04477);
+        height: 100vh;
     }
     #login {
         width: 950px;
