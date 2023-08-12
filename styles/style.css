@@ -49,6 +49,7 @@ main {
     background-position: center center;
 }
 #form {
+    color: #1A2832;
     display: block;
     padding: 10px;
     text-align: center;
@@ -123,6 +124,7 @@ form > a.button > span {
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background: linear-gradient(to top, #33D1CB, #A04477);
+        background-repeat: no-repeat;
     }
     #login {
         width: 90vw;
@@ -133,6 +135,7 @@ form > a.button > span {
         height: 100%;
     }
     #form {
+        color: #1A2832;
         margin: 50px 0px;
         float: right;
         width: 60%;
@@ -152,6 +155,7 @@ form > a.button > span {
         height: 100%;
     }
     #form {
+        color: #1A2832;
         margin: 50px 0px;
     }
 }
